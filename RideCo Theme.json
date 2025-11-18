@@ -1,0 +1,71 @@
+{
+  "name": "Transit Operations Theme",
+  "dataColors": [
+    "#0a1929",
+    "#1a2942",
+    "#4a90e2",
+    "#5bc0de",
+    "#48bb78",
+    "#ed8936",
+    "#dc143c"
+  ],
+  "background": "#e8eef5",
+  "foreground": "#0a1929",
+  "tableAccent": "#0a1929",
+  "good": "#48bb78",
+  "neutral": "#5bc0de",
+  "bad": "#dc143c",
+  "maximum": "#107C10",
+  "center": "#FFB900",
+  "minimum": "#D13438",
+  "null": "#C8C8C8",
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Segoe UI",
+      "color": "#0a1929"
+    },
+    "title": {
+      "fontSize": 24,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#0a1929"
+    },
+    "header": {
+      "fontSize": 18,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2d3e50"
+    },
+    "label": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#5a6c7d"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#e8eef5"
+              }
+            },
+            "show": true,
+            "radius": 8
+          }
+        ]
+      }
+    }
+  }
+}
