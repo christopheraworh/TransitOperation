@@ -3,12 +3,12 @@
 This Power BI project provides a comprehensive operational analytics dashboard for a public transit agency. The goal is to help RideCo monitor on-time performance, ridership patterns, and driver reliability through a clean, scalable, and interactive reporting solution.
 
 
-
+![Transit Operation Analysis](./assets/FrontPage Overview.png)
 
 
 ⭐ Project Overview
 
-![Transit Operation Analysis](./assets/FrontPage Overview.png)
+
 The report transforms raw operational data—rides, shifts, vehicles, passenger types, and locations—into a powerful decision-support tool.
 It delivers real-time insights into service delivery, demand behavior, and operational efficiency.
 
