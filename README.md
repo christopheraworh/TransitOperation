@@ -1,9 +1,14 @@
 🚍 Transit Operations Analysis – High-Level Summary (README)
 
-This Power BI project provides a comprehensive operational analytics dashboard for a public transit agency. The goal is to help leadership monitor on-time performance, ridership patterns, and driver reliability through a clean, scalable, and interactive reporting solution.
+This Power BI project provides a comprehensive operational analytics dashboard for a public transit agency. The goal is to help RideCo monitor on-time performance, ridership patterns, and driver reliability through a clean, scalable, and interactive reporting solution.
+
+
+
+
 
 ⭐ Project Overview
 
+![Transit Operation Analysis](./assets/FrontPage Overview.png)
 The report transforms raw operational data—rides, shifts, vehicles, passenger types, and locations—into a powerful decision-support tool.
 It delivers real-time insights into service delivery, demand behavior, and operational efficiency.
 
@@ -21,21 +26,20 @@ Machine Learning–enhanced features for predicting estimated trip durations
 
 The dashboard highlights critical KPIs including:
 
-Total Rides & Completed Rides
+ - Total Rides & Completed Rides
 
-On-Time Performance (%)
+ - On-Time Performance (%)
 
-Completion & Cancellation Rates
+- Completion & Cancellation Rates
 
-Average Trip Time
+- Average Trip Time
 
-Average Riders per Hour
+- Average Riders per Hour
 
-Abandoned Rides
+- Abandoned Rides
 
-Active Vehicles & Drivers
 
-Trend visuals allow leadership to understand fluctuations in demand and service reliability over time.
+Trend visuals allow RideCo to understand fluctuations in demand and service reliability over time.
 
 Geospatial visuals provide visibility into high-demand pickup/destination zones.
 
@@ -48,13 +52,13 @@ Dimensions: Date, Location (Origin & Destination), Passenger Type, Shift, Vehicl
 
 This structure supports:
 
-Clear slicing/filtering
+- Clear slicing/filtering
 
-Time intelligence
+- Time intelligence
 
-Role-playing location dimensions
+- Role-playing location dimensions
 
-Machine learning integration for trip predictions
+- achine learning integration for trip predictions
 
 🔄 Automation & Scalability
 
@@ -62,27 +66,24 @@ To operationalize the report:
 
 Automated Refresh
 
-Scheduled refresh in Power BI Service
+- Scheduled refresh in Power BI Service
 
-Optional incremental refresh for large FactRides
+- Optional incremental refresh for large FactRides
 
-Fabric Data Factory/Dataflows Gen2 for ingestion
+- Fabric Data Factory/Dataflows Gen2 for ingestion
 
 Secure Sharing
 
-Publish via a Power BI App
+- Publish via a Power BI App
 
-Row-Level Security (RLS) for drivers, supervisors, and regions
-
-Azure AD group-based permissions
+- Row-Level Security (RLS) for drivers, supervisors, and regions
 
 Scaling for 100× Data Growth
 
-Move to a Lakehouse + Delta (Medallion architecture)
+- Move to a Lakehouse + Delta (Medallion architecture)
 
-Implement aggregation tables (daily, weekly, location-based)
 
-Enable incremental/hybrid refresh for high-volume performance
+- Enable incremental/hybrid refresh for high-volume performance
 
 Use Direct Lake mode for massive datasets
 
@@ -95,12 +96,14 @@ Predictions are stored in a Delta table and consumed by Power BI, enabling users
 
 This solution equips transit leadership with:
 
-Real-time operational visibility
+- Real-time operational visibility
 
-Driver and fleet performance monitoring
+- Driver and fleet performance monitoring
 
-Insights to improve punctuality, reduce cancellations, and optimize routes
+- Insights to improve punctuality, reduce cancellations, and optimize routes
 
-Predictive capabilities for future planning
+- Predictive capabilities for future planning
 
-It demonstrates proficiency in Power BI, DAX, data modeling, Python, machine learning, and Fabric analytics engineering.
+
+Tools | Concepts Utilised
+Power BI, DAX, data modeling, Python, machine learning, Fabric analytics engineering and GIT.
